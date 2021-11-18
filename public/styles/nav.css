@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  width: 100%;
+  background-color: #4056a1;
+  color: #FFFFFF;
+  font-family: 'Bungee';
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: sticky;
+  top:0;
+  
+  
+}
+.arrow-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+#NavSubHeading {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Source Sans Pro';
+  flex-direction: column;
+  align-items: center;
+  
+}
+#arrow {
+  display: flex;
+  justify-content: flex-end;
+  color: red;
+  
+
+}
