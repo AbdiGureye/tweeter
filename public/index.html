@@ -39,6 +39,7 @@
       <i id="arrow" class="fas fa-angle-double-down"></i>
     </div>
   </nav>
+  <section class="mediaQ">
   <header class="nav-header">
     <div id="header">
       <img src="/images/profile-hex.png">
@@ -50,10 +51,11 @@
 
 
   <!-- Page-specific (main) content here -->
+  <div class="mediaQ2">
   <main class="container">
     <section class="new-tweet">
-      <h2>Compose Tweet</h2>
-      <form action="/tweets" method="POST">
+      <!-- <h2>Compose Tweet</h2> -->
+      <form class="tweetSubmit" action="/tweets" method="POST">
         <!-- <label for="tweet-text">What are you humming about?</label> -->
         <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
         <div class="bottom-container">
@@ -63,36 +65,10 @@
       </form>
     </section>
     <section class= "tweets">
-      <article class="tweet-section">
-        <header class="tweetheader">
-          
-          <div class="user-icon-container">
-            <i class="fas fa-user-alt"></i>
-            <div class="username">Money Mula</div>
-          </div>
-          <span class="span-at">@Mula</span>
-          <!--$user_icon = $('<div>').addClass('user-icon-container')-->
-            <!--$span = $('<span>').addClass('span-at')-->
-              <!--$icon_user = $('<i>').addClass('fas fa-user-alt')-->
-                <!--$username = $('<div>').add-->
-                </header>                   <!--$header.append($user_icon, $span)-->
-                <!--$user_icon.append($icon_user, $username )-->
-                
-                <div class="tweet-text">
-                  <p class="text">Hello World</p>
-                  <hr>
-                </div>
-                <footer class="footer">
-            <span class="spanDays">3 Days Ago</span>
-            <div class="icondiv">
-              <i id="flag" class="far fa-flag"></i>
-              <i id="retweet" class="fas fa-retweet"></i> 
-              <i id="heart" class="far fa-heart"></i>
-            </div>
-            </footer>
-           </article>
 
     </section>
   </main>
+  </div>
+  </section>
 </body>
 </html>
