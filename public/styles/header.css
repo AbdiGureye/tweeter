@@ -5,8 +5,20 @@
    flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: blue;
-  background-color: orange;
+  color: black;
+  /* background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
+  /* background-color: rgb(17, 167, 17); */
   
 
+}
+@media (min-width: 1024px) {
+  .mediaQ {
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+  }
+  .mediaQ2 {
+    margin-top: 5em;
+  }
+  
 }

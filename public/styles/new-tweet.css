@@ -12,7 +12,10 @@
 .tweet-text {
   text-align:left;
 }
-
+.error {
+  color: red;
+  border: 3px solid red;
+}
 .bottom-container {
   display: flex;
   flex-direction: row;
@@ -73,9 +76,10 @@
 #heart:hover {
   color: red;
  
+ 
 }
 #flag:hover {
-  color: red;
+  color: rgb(255, 251, 0);
  
 }
 #retweet:hover {
@@ -92,3 +96,9 @@ hr {
 #span-at {
   opacity: 0.6;
 }
+.icondiv {
+  display: flex;
+  justify-content: space-between;
+  
+}
+

@@ -19,18 +19,21 @@ body {
   /* background-color: #f4f1ec; */
   font-size: 24px;
   font-family: 'Source Sans Pro';
-  background-color: rgb(223, 220, 219);
-  /* background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
   background-attachment: fixed;
   background-position: center;
   display: flex;
   flex-direction: column;
+  /* background-color: red; */
+  background-color: #007896;
+background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /* background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
  
 }
 
 main {
  display: flex;
- text-align: center;
+ /* text-align: center; */
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -40,4 +43,29 @@ main {
   justify-content: space-evenly;
 
 
+}
+
+@media (min-width: 1024px) {
+  #sass {
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+  }
+  #mainCon {
+    margin-top: 5em;
+  }
+  #headers {
+    margin-top: 5em;
+    width: 350px;
+    margin-left: 25px;
+    margin-right: 30px;
+  }
+  nav{
+    /* color: white; */
+    background-color: #4056a1;
+    /* opacity: 100; */
+  }
+  #navBar {
+    background-color: #253a49;
+  }
 }
