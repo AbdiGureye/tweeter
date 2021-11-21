@@ -4,8 +4,8 @@ Tweeter is a simple, single-page Twitter clone.
 
 Tweeter was built using HTML, CSS, JS, jQuery and AJAX front-end skills, and Node, Express back-end skills.
 
-["Desktop screenshot"](https://github.com/AbdiGureye/tweeter/blob/master/public/images/Screen%20Shot%202021-11-21%20at%204.20.20%20PM.png?raw=true)
-["Mobile screehshot"](https://github.com/AbdiGureye/tweeter/blob/master/public/images/Screen%20Shot%202021-11-21%20at%204.20.43%20PM.png?raw=true)
+!["Desktop screenshot"](https://github.com/AbdiGureye/tweeter/blob/master/public/images/Screen%20Shot%202021-11-21%20at%204.20.20%20PM.png?raw=true)
+!["Mobile screehshot"](https://github.com/AbdiGureye/tweeter/blob/master/public/images/Screen%20Shot%202021-11-21%20at%204.20.43%20PM.png?raw=true)
 
 ## Getting Started
 
